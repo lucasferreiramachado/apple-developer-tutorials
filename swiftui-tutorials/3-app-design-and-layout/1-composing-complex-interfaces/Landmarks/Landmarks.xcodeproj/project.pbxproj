@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E726B412A83237500B1D3FF /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E726B402A83237500B1D3FF /* CategoryHome.swift */; };
 		1EADCA052A815B8000CF9ECB /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EADCA042A815B8000CF9ECB /* LandmarksApp.swift */; };
 		1EADCA072A815B8000CF9ECB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EADCA062A815B8000CF9ECB /* ContentView.swift */; };
 		1EADCA092A815B8100CF9ECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EADCA082A815B8100CF9ECB /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E726B402A83237500B1D3FF /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		1EADCA012A815B8000CF9ECB /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EADCA042A815B8000CF9ECB /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		1EADCA062A815B8000CF9ECB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				1ED366D62A825FF00002B778 /* Hikes */,
 				1EADCA282A81CF8D00CF9ECB /* Landmarks */,
 				1EADCA062A815B8000CF9ECB /* ContentView.swift */,
+				1E726B402A83237500B1D3FF /* CategoryHome.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				1EADCA212A81BF4900CF9ECB /* LandmarkRow.swift in Sources */,
 				1ED366C92A8253BA0002B778 /* Badge.swift in Sources */,
 				1EADCA072A815B8000CF9ECB /* ContentView.swift in Sources */,
+				1E726B412A83237500B1D3FF /* CategoryHome.swift in Sources */,
 				1ED366DC2A825FF00002B778 /* HikeGraph.swift in Sources */,
 				1EADCA152A81B27000CF9ECB /* MapView.swift in Sources */,
 				1EADCA272A81CF2A00CF9ECB /* FavoriteButton.swift in Sources */,
