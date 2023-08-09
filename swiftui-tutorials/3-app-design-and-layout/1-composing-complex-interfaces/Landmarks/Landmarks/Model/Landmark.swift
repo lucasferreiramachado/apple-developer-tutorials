@@ -12,12 +12,13 @@ import CoreLocation
 struct Landmark: Hashable, Codable, Identifiable {
 
     var id: Int
+    var category: Category
+    var description: String
+    var isFavorite: Bool
+    var isFeatured: Bool
     var name: String
     var park: String
     var state: String
-    var description: String
-    var isFavorite: Bool
-    var category: Category
 
     var image: Image {
         Image(imageName)
