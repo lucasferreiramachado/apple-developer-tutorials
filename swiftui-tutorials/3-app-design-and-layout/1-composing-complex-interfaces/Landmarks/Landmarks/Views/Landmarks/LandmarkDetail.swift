@@ -17,41 +17,44 @@ struct LandmarkDetail: View {
 
 
     var body: some View {
-        VStack {
-            MapView(coordinate: landmark.locationCoordinate)
-                .ignoresSafeArea(edges: .top)
-                .frame(height: 300)
+        ScrollView {
+            VStack {
+                MapView(coordinate: landmark.locationCoordinate)
+                    .ignoresSafeArea(edges: .top)
+                    .frame(height: 300)
 
-            CircleImage(image: landmark.image)
-                .offset(y: -130)
-                .padding(.bottom, -130)
+                CircleImage(image: landmark.image)
+                    .offset(y: -130)
+                    .padding(.bottom, -130)
 
-            VStack(alignment: .leading) {
-                HStack {
-                    Text(landmark.name)
-                        .font(.title)
+                VStack(alignment: .leading) {
+                    HStack {
+                        Text(landmark.name)
+                            .font(.title)
 
-                    FavoriteButton(isSet: $modelData.landmarks[landmarkIndex].isFavorite)
-                }
+                        FavoriteButton(isSet: $modelData.landmarks[landmarkIndex].isFavorite)
+                    }
 
-                HStack {
-                    Text(landmark.park)
-                    Spacer()
-                    Text(landmark.state)
-                }
-                .font(.subheadline)
-                .foregroundColor(.secondary)
+                    HStack {
+                        Text(landmark.park)
+                        Spacer()
+                        Text(landmark.state)
+                    }
+                    .font(.subheadline)
+                    .foregroundColor(.secondary)
 
-                Divider()
+                    Divider()
 
-                Text("About \(landmark.name)")
-                    .font(.title2)
-                Text(landmark.description)
+                    Text("About \(landmark.name)")
+                        .font(.title2)
+                    Text(landmark.description)
 
-            }.padding()
+                }.padding()
 
-            Spacer()
+                Spacer()
+            }
         }
+        .ignoresSafeArea(edges: .top)
         .navigationTitle(landmark.name)
         .navigationBarTitleDisplayMode(.inline)
     }
