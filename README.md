@@ -13,4 +13,8 @@
 - [Drawing Paths and Shapes](https://github.com/lucasferreiramachado/apple-developer-tutorials/pull/4)
 - [Animating Views and Transitions](https://github.com/lucasferreiramachado/apple-developer-tutorials/pull/5)
 
-#### Next Step: [App Design and Layout - Composing Complex Interfaces](https://developer.apple.com/tutorials/swiftui/composing-complex-interfaces)
+#### App Design and Layout
+
+- [Composing Complex Interfaces](https://github.com/lucasferreiramachado/apple-developer-tutorials/pull/6)
+
+#### Next Step: [App Design and Layout - Working with UI Controls](https://developer.apple.com/tutorials/swiftui/working-with-ui-controls)
