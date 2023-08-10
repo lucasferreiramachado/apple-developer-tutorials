@@ -16,5 +16,10 @@
 #### App Design and Layout
 
 - [Composing Complex Interfaces](https://github.com/lucasferreiramachado/apple-developer-tutorials/pull/6)
+- [Working with UI Controls](https://github.com/lucasferreiramachado/apple-developer-tutorials/pull/7)
 
-#### Next Step: [App Design and Layout - Working with UI Controls](https://developer.apple.com/tutorials/swiftui/working-with-ui-controls)
+  - <img src="https://github.com/lucasferreiramachado/apple-developer-tutorials/assets/81539770/0756a72b-0586-4710-9c45-688ac608b9e9" width="33%"/> 
+
+
+
+#### Next Step: [Framework Integration - Interfacing with UIKit](https://developer.apple.com/tutorials/swiftui/working-with-ui-controls)
