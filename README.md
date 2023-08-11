@@ -18,8 +18,11 @@
 - [Composing Complex Interfaces](https://github.com/lucasferreiramachado/apple-developer-tutorials/pull/6)
 - [Working with UI Controls](https://github.com/lucasferreiramachado/apple-developer-tutorials/pull/7)
 
-  - <img src="https://github.com/lucasferreiramachado/apple-developer-tutorials/assets/81539770/0756a72b-0586-4710-9c45-688ac608b9e9" width="33%"/> 
+#### Framework Integration
+
+- [Interfacing with UIKit](https://github.com/lucasferreiramachado/apple-developer-tutorials/pull/8)
+  
+<img src="https://github.com/lucasferreiramachado/apple-developer-tutorials/assets/81539770/2132ba38-3990-46c9-9e42-e213fbe62a3e" width="30%">
 
 
-
-#### Next Step: [Framework Integration - Interfacing with UIKit](https://developer.apple.com/tutorials/swiftui/interfacing-with-uikit)
+#### Next Step: [Framework Integration - Creating a watchOS App](https://developer.apple.com/tutorials/swiftui/creating-a-watchos-app)
